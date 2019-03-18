@@ -1,0 +1,36 @@
+{
+  "name": "devskon",
+  "version": "1.0.0",
+  "description": "Social network for software developers/engineers",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon --exec babel-node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NkFab/devskon.git"
+  },
+  "author": "Manzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NkFab/devskon/issues"
+  },
+  "homepage": "https://github.com/NkFab/devskon#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "celebrate": "^9.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "nodemon": "^1.18.10"
+  }
+}
