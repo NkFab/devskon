@@ -7,11 +7,11 @@ branches:
     - develop
 cache:
   directories:
-    - "$HOME/.npm"
-# before_install:
-#   - npm update
+    - node_modules
+before_install:
+  - npm update
 install:
-  - npm ci
+  - npm install
 script:
   - npm run test
 after_success:
