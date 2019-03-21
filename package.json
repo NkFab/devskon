@@ -6,7 +6,8 @@
   "scripts": {
     "server": "nodemon --exec babel-node ./server.js",
     "test": "jest  --coverage",
-    "coveralls": "jest  --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "coveralls": "jest  --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "snyk": "snyk test"
   },
   "repository": {
     "type": "git",
