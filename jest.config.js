@@ -9,6 +9,7 @@ module.exports = {
     'server.js',
     'app.js',
     'database',
+    'logger.js',
     'config'
   ],
   coverageDirectory: 'coverage',
