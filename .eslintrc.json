@@ -2,7 +2,7 @@
   "extends": ["airbnb", "prettier"],
   "plugins": ["jest", "prettier"],
   "env": {
-    "jest": true
+    "jest/globals": true
   },
   "parser": "babel-eslint",
   "parserOptions": {
