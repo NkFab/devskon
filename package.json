@@ -8,8 +8,8 @@
     "test": "jest  --coverage",
     "coveralls": "jest  --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "snyk": "snyk test",
-    "lint": " eslint . --ext .js --ignore-path .gitignore",
-    "lint:fix": " eslint . --ext .js --ignore-path .gitignore --fix"
+    "lint": "eslint . --ext .js --ignore-path .gitignore",
+    "lint:fix": "eslint . --ext .js --ignore-path .gitignore --fix"
   },
   "repository": {
     "type": "git",
