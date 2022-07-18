@@ -28,10 +28,10 @@
     "celebrate": "^9.1.0",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
-    "jest": "^24.5.0",
+    "jest": "^25.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.4.19",
-    "passport": "^0.4.0",
+    "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
     "winston": "^3.2.1"
   },
